@@ -1,7 +1,13 @@
 import React from 'react';
-
+import Hello from './Hello';
 function Sample(){
-    return (<h1>Hello </h1>);
+    return (
+        <div>
+        <h1>Hello React App</h1>
+        <Hello name="Chaitanya"/>
+        </div>
+        
+    );
 }
 
 export default Sample;
